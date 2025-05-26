@@ -27,6 +27,7 @@ function addTown() {
     $('#result').text(townName + " added.");
 }
 
+
 function showMessage(msg) {
     $('#result').text(msg).css("display", "block");
     setTimeout(function () {
